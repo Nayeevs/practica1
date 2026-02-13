@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web básica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> Mi página web básica</h1>
+        <nav>
+        <a href="#Inicio">Inicio</a>
+        <a href="#Info">Info</a>
+        <a href="#Contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Inicio">
+            <h2>Inicio</h2>
+            <p>
+                Esta página usa <b>Pseudoclases</b> como <code>:hover</code>, <code>:focus</code> y
+                <code>:valid</code>, <code>:invalid</code>
+            </p>
+            <a class="btn" href="#Contacto">Ir al fomulario</a>
+        </section>
+        <section id="Info">
+            <h2>Info</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Tarjeta 1</h3>
+                    <p>Pasa el mause encima para ver <code>:hover</code>.</p>
+            </div>
+                <div class="card">
+                    <h3>Tarjeta 2</h3>
+                    <p>En móvil se acomoda una debajo de otra.</p>
+                </div>
+                
+            </div>
+        </section>
+    
+
+        
+        
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label>
+                    Nombre:
+                    <input type="text" required minlengh="3" placeholder="Tu nombre"> </imput>
+                </label>
+
+                <label>
+                    Email:
+                    <input type="email" required placeholder="correo@ejemplo.com"> </imput>
+                </label>
+
+                <label>
+                    Mensaje:
+                    <textarea required minlength="10" placeholder="Escribe algo..."> </textarea>
+                </label>
+
+                <label class="check">
+                    <imput type="chechbox" required />
+                    Acepto términos
+                </label>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+     </main>
+
+     <footer>
+        <p> 2026 - Página básica</p>
+     </footer>
+    
+</body>
+</html>
